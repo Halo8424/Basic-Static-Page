@@ -41,7 +41,14 @@ nav ul li{
 nav ul li a{
     color: #f1faee;
     font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 4px;
     text-transform: uppercase;
 
 }
 
+a.active,a:hover{
+    background: #48bfe3;
+    transition: .5s;
+  
+}
