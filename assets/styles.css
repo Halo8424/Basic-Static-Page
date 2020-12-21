@@ -138,3 +138,14 @@ nav #icon {
             left: 0;
         }
 }
+
+@media (max-width: 448px) {
+  nav #icon{
+    display: block;
+    font-size: 20px;
+  }
+  label.logo {
+    font-size: 22px;
+    padding-left: 60px;
+  }
+}
