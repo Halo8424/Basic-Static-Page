@@ -103,5 +103,7 @@ nav #icon {
             border: none;
             color: #5d9cf0;
         }
-        
+        nav ul.show{
+            left: 0;
+        }
 }
