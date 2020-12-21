@@ -15,13 +15,13 @@ body{
 /* Navigation styles */
 
 nav{
-    background: #56cfe1;
+    background: #023e8a;
     height: 80px;
     width: 100%;
 }
 
 label.logo{
-    color: #6930c3;
+    color: #f1faee;
     font-size: 35px;
     line-height: 80px;
     padding: 0 100px;
@@ -30,25 +30,21 @@ label.logo{
 
 nav ul{
     float: right;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 nav ul li{
     display: inline-block;
     line-height: 80px;
-    margin: 0 5px;
+    margin: 0 8px;
 }
-nav ul li a{
+nav a{
     color: #f1faee;
-    font-size: 17px;
+    font-size: 18px;
     padding: 7px 13px;
+    border: 1px solid transparent;
     border-radius: 4px;
     text-transform: uppercase;
 
 }
 
-a.active,a:hover{
-    background: #48bfe3;
-    transition: .5s;
-  
-}
