@@ -1,50 +1,52 @@
-
 /* CSS Reset */
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Navigation styles */
 
-nav{
-    background: #023e8a;
-    height: 80px;
-    width: 100%;
+nav {
+  background: #023e8a;
+  height: 80px;
+  width: 100%;
 }
 
-label.logo{
-    color: #f1faee;
-    font-size: 35px;
-    line-height: 80px;
-    padding: 0 100px;
-    font-weight: bold;;
+label.logo {
+  color: #f1faee;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
 }
 
-nav ul{
-    float: right;
-    margin-right: 40px;
+nav ul {
+  float: right;
+  margin-right: 40px;
 }
 
-nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 8px;
+nav li {
+  display: inline-block;
+  margin: 0 8px;
+  line-height: 80px;
 }
-nav a{
-    color: #f1faee;
-    font-size: 18px;
-    padding: 7px 13px;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    text-transform: uppercase;
-
+nav a {
+  color: #f1faee;
+  font-size: 18px;
+  padding: 7px 13px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  text-transform: uppercase;
 }
 
+a.active,a:hover{
+    border:1px solid #f1faee;
+    transition: .5s;
+}
